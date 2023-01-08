@@ -1,5 +1,5 @@
-from django.shortcuts import render, HttpResponseRedirect
-from django.core.paginator import Paginator
+from django.shortcuts import HttpResponseRedirect #,render,
+# from django.core.paginator import Paginator
 from django.contrib.auth.decorators import login_required
 from django.views.generic.base import TemplateView
 from django.views.generic.list import ListView
@@ -20,7 +20,7 @@ class IndexView(TemplateView):
 class ProductsListView(ListView):
     model = Product
     template_name = 'products/products.html'
-
+    paginate_by = 3
     def get_queryset(self):
         queryset = super(ProductsListView, self).get_queryset()
         category_id = self.kwargs.get('category_id')
