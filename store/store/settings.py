@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+DOMAIN_NAME = 'http://localhost:8000'
 
 # Application definition
 
@@ -64,6 +65,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'products.context_processors.baskets',
             ],
         },
     },
@@ -146,5 +148,10 @@ LOGOUT_REDIRECT_URL = '/'
 
 #e-mails
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.yandex.ru'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'stepik-store@yandex.ru'
+EMAIL_HOST_PASSWORD = 'stepik-store-password'
+EMAIL_USE_SSL = True
+
 
