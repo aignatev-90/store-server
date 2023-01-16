@@ -1,0 +1,22 @@
+[
+{
+    "model": "products.basket",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "product": 2,
+        "quantity": 3,
+        "created_timestamp": "2023-01-07T08:09:56.761Z"
+    }
+},
+{
+    "model": "products.basket",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "product": 3,
+        "quantity": 1,
+        "created_timestamp": "2023-01-07T08:09:57.925Z"
+    }
+}
+]

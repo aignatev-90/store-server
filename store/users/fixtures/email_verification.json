@@ -1,0 +1,12 @@
+[
+{
+    "model": "users.emailverification",
+    "pk": 1,
+    "fields": {
+        "code": "ef8d8371-b594-4f56-be4b-5132a07d5bc3",
+        "user": 6,
+        "created": "2023-01-11T15:42:34.635Z",
+        "expiration": "2023-01-13T15:42:34.632Z"
+    }
+}
+]

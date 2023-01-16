@@ -1,0 +1,42 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$GmxIZyZGs8xVGdvnoQgIQs$L5uCKxcTG2PT336qwTrjEOH96bU3egzXndLKo5X/ZJo=",
+        "last_login": "2023-01-11T15:45:29.941Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "Vasya",
+        "last_name": "Pupkin",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-24T12:04:41Z",
+        "image": "users_images/compress.png",
+        "is_verified_email": false,
+        "email": "admin@django.ru",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$U73N9ACYUTk9QCEUX9ps68$8zjqTLoWTDKbPMCSqmTApNx6YypPKGTD8k73KbS4iY0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "vasek",
+        "first_name": "vasek",
+        "last_name": "vasek",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-01-11T15:42:34.294Z",
+        "image": "",
+        "is_verified_email": false,
+        "email": "dsadsa@mail.ru",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
