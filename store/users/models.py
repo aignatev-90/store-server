@@ -17,7 +17,7 @@ class EmailVerification(models.Model):
     expiration = models.DateTimeField()
 
     def __str__(self):
-        return f'EmailVerification object for {self.user.email}'
+        return f'EmailVerification object for {self.user.username}'
 
     def send_verification_email(self):
         link = reverse('users:email_verification', kwargs={'email':self.user.email, 'code':self.code})
